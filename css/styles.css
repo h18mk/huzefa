@@ -1,0 +1,140 @@
+body {
+  color: #1B1A17;
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Reenie Beanie', cursive;
+  color: #072227;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Martel', serif;
+  color: #072227;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Martel', serif;
+  color: #35858B;
+}
+
+hr{
+  border: dotted #EAF6F6 5px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 5%
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #35858B;
+  font-family: 'Martel', serif;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+a:hover{
+    color: #072227;
+}
+
+.top-container {
+  background-color: #AEFEFF;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  margin: 80px 0;
+}
+
+.bottom-container{
+  background-color: #AEFEFF;
+  padding: 40px 0 20px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+.photography{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.note-taking {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.cnc{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.huzi{
+  width: 30%;
+  margin: auto;
+}
+.contact-message{
+  width: 30%;
+  margin: 40px auto 70px;
+}
+.copyright {
+  color: #072227;
+  padding: 10px 0;
+  font-size: 0.75rem;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: 'Martel', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
